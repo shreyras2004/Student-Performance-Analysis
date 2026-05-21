@@ -77,6 +77,8 @@ plt.xlabel("Final Grade")
 
 plt.ylabel("Number of Students")
 
+plt.savefig("histogram.png")
+
 plt.show()
 
 # Scatter Plot
@@ -90,6 +92,8 @@ plt.xlabel("Study Time")
 
 plt.ylabel("Final Grade")
 
+plt.savefig("scatterplot.png")
+
 plt.show()
 
 # Bar Chart
@@ -102,5 +106,7 @@ plt.title("Average Score by Gender")
 plt.xlabel("Gender")
 
 plt.ylabel("Average G3 Score")
+
+plt.savefig("barchart.png")
 
 plt.show()
